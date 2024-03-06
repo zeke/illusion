@@ -1,0 +1,18 @@
+{
+  "name": "illusion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A starter for testing out Replicate's API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "download": "^8.0.0",
+    "promptmaker": "^1.1.0",
+    "replicate": "*",
+    "transliteration": "^2.3.5"
+  }
+}
